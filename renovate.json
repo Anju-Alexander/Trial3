@@ -2,21 +2,5 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base"
-  ],
-  "packageRules": [
-    {
-      "matchPackagePatterns": ["*"],
-      "enabled": false
-     
-    }
-  ],
-  "vulnerabilityAlerts": {
-    "enabled": true,
-    "labels": ["security"],
-    "automerge": true,
-    "ignoreTests": true
-  },
-
-  "platformAutomerge": true,
-  "automergeType": "pr"
+  ]
 }
