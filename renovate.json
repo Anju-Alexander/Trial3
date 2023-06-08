@@ -1,4 +1,5 @@
 {
+  "extends": [":dependencyDashboard"],
   "packageRules": [{
     "packagePatterns": ["*"],
     "enabled": false
