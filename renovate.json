@@ -6,7 +6,7 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
-      "enabled": false,
+      "enabled": false
      
     }
   ],
@@ -14,7 +14,7 @@
     "enabled": true,
     "labels": ["security"],
     "automerge": true,
-    "ignoreTests": true,
+    "ignoreTests": true
   },
 
   "platformAutomerge": true,
